@@ -1,0 +1,67 @@
+{
+    "headers": {
+        "authority": "krisha.kz",
+        "accept": "application/json, text/javascript, */*; q=0.01",
+        "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "sec-ch-ua": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+        "x-requested-with": "XMLHttpRequest"
+    },
+    "urls": [
+        {
+            "url": "https://krisha.kz/a/ajax-map-list/map/arenda/kvartiry/", 
+            "property_type": "Appartment",
+            "deal_type": "Rent", 
+            "duration": "Monthly"
+        }, 
+        {
+            "url": "https://krisha.kz/a/ajax-map-list/map/arenda/kvartiry-posutochno/",
+            "property_type": "Appartment",
+            "deal_type": "Rent",
+            "duration": "Daily"
+        },
+        {
+            "url": "https://krisha.kz/a/ajax-map-list/map/prodazha/kvartiry/",
+            "property_type": "Appartment",
+            "deal_type": "Sale"
+        },
+        {
+            "url": "https://krisha.kz/a/ajax-map-list/map/arenda/doma-dachi/",
+            "property_type": "House",
+            "deal_type": "Rent",
+            "duration": "Monthly"
+        },
+        {
+            "url": "https://krisha.kz/a/ajax-map-list/map/arenda/doma-dachi-posutochno/",
+            "property_type": "House",
+            "deal_type": "Rent",
+            "duration": "Daily"
+        },
+        {
+            "url": "https://krisha.kz/a/ajax-map-list/map/prodazha/doma-dachi/",
+            "property_type": "House",
+            "deal_type": "Sale"
+        }
+    ],
+    "cities": [
+        {
+            "city": "Almaty", 
+            "url_path": "almaty",
+            "params": {
+                "bounds": "43.411676088976265,76.68081381835931,43.149807254297706,77.14498618164056"
+            }
+        },
+        {
+            "city": "Kapchagay", 
+            "url_path": "konaev",
+            "params": {
+                "bounds": "43.89466604281675,77.00727845458978,43.829832177444835,77.12332154541014"
+            }
+        }
+    ]
+}
