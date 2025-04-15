@@ -106,7 +106,7 @@ def download_data(url: URLModel):
             break
         for adv in _data.values():
             try:
-                yield AdvertModel(**adv, url=url)
+                yield AdvertModel(**adv, url=url.model_copy())
             except ValidationError as e:
                 errors = json.loads(e.json())
                 for error in errors:
